@@ -133,7 +133,7 @@ Realize cada uma das etapas a seguir e capture os prints solicitados como evidê
 
 ```sql
 -- 1. Excluir a tabela que usa o esquema
-DROP TABLE IF EXISTS dbo.lineitem_P;
+DROP TABLE dbo.lineitem_P;
 
 -- 2. Excluir o esquema de partição
 DROP PARTITION SCHEME scheme_lineitem;
